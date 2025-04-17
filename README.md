@@ -11,8 +11,4 @@ Use wsl2 and install VcXsrv Windows X Server from this [link](https://sourceforg
 
 ## VScode
 
-Install devcontainers extension of vscode and open in the project in the devcontainer.
-
-https://code.visualstudio.com/docs/devcontainers/devcontainer-cli
-
-Under the `swan` folder run `devcontainer up`
+Install devcontainers extension of vscode and reopen in the project in the devcontainer.
