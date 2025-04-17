@@ -1,0 +1,6 @@
+Invoking command in '/app/build/swan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /app/swan -DCMAKE_INSTALL_PREFIX=/app/install/swan
+Invoked command in '/app/build/swan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /app/swan -DCMAKE_INSTALL_PREFIX=/app/install/swan
+Invoking command in '/app/build/swan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /app/build/swan -- -j16 -l16
+Invoked command in '/app/build/swan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /app/build/swan -- -j16 -l16
+Invoking command in '/app/build/swan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /app/build/swan
+Invoked command in '/app/build/swan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /app/build/swan

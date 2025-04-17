@@ -1,0 +1,8 @@
+source;share/swan/hook/cmake_prefix_path.ps1
+source;share/swan/hook/cmake_prefix_path.dsv
+source;share/swan/hook/cmake_prefix_path.sh
+source;share/swan/local_setup.bash
+source;share/swan/local_setup.dsv
+source;share/swan/local_setup.ps1
+source;share/swan/local_setup.sh
+source;share/swan/local_setup.zsh
