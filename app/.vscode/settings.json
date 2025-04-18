@@ -1,3 +1,4 @@
 {
-    "workbench.editor.sharedViewState": true
+    "workbench.editor.sharedViewState": true,
+    "cmake.sourceDirectory": "/app/swan"
 }

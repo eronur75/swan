@@ -1,1 +1,0 @@
-/app/build/swan/ament_cmake_environment_hooks/local_setup.zsh

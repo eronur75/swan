@@ -1,8 +1,9 @@
-source;share/swan/hook/cmake_prefix_path.ps1
-source;share/swan/hook/cmake_prefix_path.dsv
-source;share/swan/hook/cmake_prefix_path.sh
-source;share/swan/local_setup.bash
-source;share/swan/local_setup.dsv
-source;share/swan/local_setup.ps1
-source;share/swan/local_setup.sh
-source;share/swan/local_setup.zsh
+source;share/swan/hook/pythonpath.ps1
+source;share/swan/hook/pythonpath.dsv
+source;share/swan/hook/pythonpath.sh
+source;share/swan/hook/ament_prefix_path.ps1
+source;share/swan/hook/ament_prefix_path.dsv
+source;share/swan/hook/ament_prefix_path.sh
+source;../../build/swan/share/swan/hook/pythonpath_develop.ps1
+source;../../build/swan/share/swan/hook/pythonpath_develop.dsv
+source;../../build/swan/share/swan/hook/pythonpath_develop.sh
