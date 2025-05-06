@@ -1,0 +1,3 @@
+[submodule "sim_ws/crazyflie-simulation"]
+	path = sim_ws/crazyflie-simulation
+	url = https://github.com/bitcraze/crazyflie-simulation.git

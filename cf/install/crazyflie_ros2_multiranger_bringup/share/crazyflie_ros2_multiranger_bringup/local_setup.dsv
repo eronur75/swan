@@ -1,0 +1,2 @@
+source;share/crazyflie_ros2_multiranger_bringup/environment/ament_prefix_path.sh
+source;share/crazyflie_ros2_multiranger_bringup/environment/path.sh

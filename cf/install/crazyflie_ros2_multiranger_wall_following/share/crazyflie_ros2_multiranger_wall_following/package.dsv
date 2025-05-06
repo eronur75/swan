@@ -1,0 +1,6 @@
+source;share/crazyflie_ros2_multiranger_wall_following/hook/pythonpath.ps1
+source;share/crazyflie_ros2_multiranger_wall_following/hook/pythonpath.dsv
+source;share/crazyflie_ros2_multiranger_wall_following/hook/pythonpath.sh
+source;share/crazyflie_ros2_multiranger_wall_following/hook/ament_prefix_path.ps1
+source;share/crazyflie_ros2_multiranger_wall_following/hook/ament_prefix_path.dsv
+source;share/crazyflie_ros2_multiranger_wall_following/hook/ament_prefix_path.sh

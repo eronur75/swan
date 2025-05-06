@@ -3,13 +3,13 @@
 {
 	"build": {
         // Path is relative to the devcontainer.json file.
-        "dockerfile": "../Dockerfile"
+        "dockerfile": "Dockerfile"
     },
 
 	"name": "SWAN",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"workspaceMount": "source=${localWorkspaceFolder}/app,target=/app,type=bind",
-	"workspaceFolder": "/app",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/ws,type=bind",
+	"workspaceFolder": "/ws",
 
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {}
@@ -54,30 +54,6 @@
 						"${workspaceFolder}"
 					],
 					"C_Cpp.errorSquiggles": "enabled",
-					"[c]": {
-						"editor.formatOnSave": true,
-						"editor.defaultFormatter": "xaver.clang-format"
-					},
-					"[cpp]": {
-						"editor.formatOnSave": true,
-						"editor.defaultFormatter": "xaver.clang-format"
-					},
-					"[python]": {
-						"editor.formatOnSave": true,
-						"editor.defaultFormatter": "ms-python.black-formatter"
-					},
-					"[yaml]": {
-						"editor.formatOnSave": true,
-						"editor.defaultFormatter": "redhat.vscode-yaml"
-					},
-					"[json]": {
-						"editor.formatOnSave": true,
-						"editor.defaultFormatter": "ClemensPeters.format-json"
-					},
-					"[xml]": {
-						"editor.formatOnSave": true,
-						"editor.defaultFormatter": "redhat.vscode-xml"
-					},
 					"files.trimTrailingWhitespace": true,
 					"files.insertFinalNewline": true,
 					"terminal.integrated.scrollback": 1000

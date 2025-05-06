@@ -1,0 +1,1 @@
+docker run -it -e DISPLAY=host.docker.internal:0.0 --privileged --network=host --env-file=.env -v ./sim_ws:/app swan /bin/bash
